@@ -1,0 +1,41 @@
+.wrapper {
+    background-color: rgb(174, 218, 17);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    align-items: center;
+    width: 100vw;
+
+    .logoBar {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: #fff;
+        font-weight: 500;
+        font-size: 1.2rem;
+
+        & .icon {
+            margin-right: 2px;
+        }
+    }
+
+    .navBar {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        .link, .active {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.2rem;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 0.2rem;
+        }
+
+        .active {
+            border-bottom: 2px solid white;
+        }
+    }
+}
